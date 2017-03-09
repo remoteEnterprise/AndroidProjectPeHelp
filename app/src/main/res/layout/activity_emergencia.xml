@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pehelp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView" />
+
+    <Button
+        android:text="menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:text="emergencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botaoEmergencia"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:onClick="cLigarActionDial"
+        />
+
+</LinearLayout>
