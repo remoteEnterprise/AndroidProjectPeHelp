@@ -19,7 +19,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
  * Created by mathe on 06/03/2017.
  */
 
-public class BotaoEmergenciaActivity extends Activity {
+public class BotaoEmergenciaActivity extends Activity implements View.OnClickListener {
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -27,6 +27,8 @@ public class BotaoEmergenciaActivity extends Activity {
      */
     private GoogleApiClient client;
     private Button btnMenu;
+    private Button btnEmergencia;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,37 +37,34 @@ public class BotaoEmergenciaActivity extends Activity {
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
         btnMenu = (Button)findViewById(R.id.menu);
-
-        btnMenu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                botaoMenu();
-
-            }
-        });
+        btnEmergencia = (Button)findViewById(R.id.botaoEmergencia);
+        btnMenu.setOnClickListener(this);
+        btnEmergencia.setOnClickListener(this);
     }
 
-    public void botaoMenu(){
-        Intent intent = new Intent(this, LoginActivity.class);
-        startActivity(intent);
-    }
-
-    public void cLigarActionDial(View view) {
-
-        long num = 996338459;
-        Uri uri = Uri.parse("tel:" + num);
-        Intent intent = new Intent(Intent.ACTION_CALL, uri);
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
+    @Override
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.menu:
+                Intent intent = new Intent(this, LoginActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.botaoEmergencia:
+                int num = 190;
+                Uri uri = Uri.parse("tel:" + num);
+                intent = new Intent(Intent.ACTION_CALL, uri);
+                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    // TODO: Consider calling
+                    //    ActivityCompat#requestPermissions
+                    // here to request the missing permissions, and then overriding
+                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                    //                                          int[] grantResults)
+                    // to handle the case where the user grants the permission. See the documentation
+                    // for ActivityCompat#requestPermissions for more details.
+                    return;
+                }
+                startActivity(intent);
         }
-        startActivity(intent);
     }
 
     /**
@@ -103,4 +102,6 @@ public class BotaoEmergenciaActivity extends Activity {
         AppIndex.AppIndexApi.end(client, getIndexApiAction());
         client.disconnect();
     }
+
+
 }
