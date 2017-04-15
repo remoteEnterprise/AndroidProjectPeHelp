@@ -19,7 +19,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
  * Created by mathe on 06/03/2017.
  */
 
-public class BotaoEmergenciaActivity extends Activity implements View.OnClickListener {
+public class EmergenciaActivity extends Activity implements View.OnClickListener {
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -27,7 +27,9 @@ public class BotaoEmergenciaActivity extends Activity implements View.OnClickLis
      */
     private GoogleApiClient client;
     private Button btnMenu;
+    private Button btnMapa;
     private Button btnEmergencia;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,17 +38,24 @@ public class BotaoEmergenciaActivity extends Activity implements View.OnClickLis
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-        btnMenu = (Button)findViewById(R.id.menu);
+        btnMenu = (Button)findViewById(R.id.botaoMenu);
+        btnMapa = (Button)findViewById(R.id.botaoMapa);
         btnEmergencia = (Button)findViewById(R.id.botaoEmergencia);
         btnMenu.setOnClickListener(this);
+        btnMapa.setOnClickListener(this);
         btnEmergencia.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View v) {
         switch(v.getId()){
-            case R.id.menu:
+            case R.id.botaoMenu:
                 Intent intent = new Intent(this, LoginActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.botaoMapa:
+                intent = new Intent(this, MapsActivity.class);
                 startActivity(intent);
                 break;
             case R.id.botaoEmergencia:

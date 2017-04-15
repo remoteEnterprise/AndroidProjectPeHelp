@@ -20,7 +20,7 @@ public class SplashActivity extends Activity implements Runnable{
 
     @Override
     public void run() {
-        startActivity(new Intent(this, BotaoEmergenciaActivity.class));
+        startActivity(new Intent(this, EmergenciaActivity.class));
         finish();
     }
 }
