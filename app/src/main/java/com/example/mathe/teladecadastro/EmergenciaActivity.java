@@ -27,7 +27,6 @@ public class EmergenciaActivity extends Activity implements View.OnClickListener
      */
     private GoogleApiClient client;
     private Button btnMenu;
-    private Button btnMapa;
     private Button btnEmergencia;
 
 
@@ -39,10 +38,8 @@ public class EmergenciaActivity extends Activity implements View.OnClickListener
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
         btnMenu = (Button)findViewById(R.id.botaoMenu);
-        btnMapa = (Button)findViewById(R.id.botaoMapa);
         btnEmergencia = (Button)findViewById(R.id.botaoEmergencia);
         btnMenu.setOnClickListener(this);
-        btnMapa.setOnClickListener(this);
         btnEmergencia.setOnClickListener(this);
 
     }
@@ -51,13 +48,10 @@ public class EmergenciaActivity extends Activity implements View.OnClickListener
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.botaoMenu:
-                Intent intent = new Intent(this, LoginActivity.class);
+                Intent intent = new Intent(this, MenuActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.botaoMapa:
-                intent = new Intent(this, MapsActivity.class);
-                startActivity(intent);
-                break;
+
             case R.id.botaoEmergencia:
                 int num = 190;
                 Uri uri = Uri.parse("tel:" + num);
