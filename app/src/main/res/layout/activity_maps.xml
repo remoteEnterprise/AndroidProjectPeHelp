@@ -24,8 +24,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="4"
-            android:hint="Search Location Here" />
-
+            android:hint="Pesquisar Local"
+            android:background="@android:color/transparent"/>
 
         <Button
             android:id="@+id/search_button"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:onClick="onMapSearch"
-            android:text="Search" />
+            android:text="ir"/>
 
     </LinearLayout>
 
