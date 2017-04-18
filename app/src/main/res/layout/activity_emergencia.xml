@@ -16,14 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/botaoMenu"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"/>
-    <Button
-        android:text="mapa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/botaoMapa"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="40dp"
         android:layout_gravity="center"/>
 
     <Button
@@ -31,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/botaoEmergencia"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="30dp"
         android:layout_gravity="center"
         />
     ]

@@ -4,13 +4,39 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
-    <TextView
-        android:text="Texto"
-        android:layout_width="184dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+    <!--<TextView-->
+    <!--android:text="Texto"-->
+    <!--android:layout_width="184dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="100dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/texto"-->
+    <!--android:layout_weight="0.02"-->
+    <!--android:textSize="20dp" />-->
+
+
+    <Button
+        android:id="@+id/btnl"
+        android:layout_marginTop="150dp"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
-        android:id="@+id/texto"
-        android:layout_weight="0.02"
-        android:textSize="20dp" />
+        android:layout_gravity="center"
+        android:text="Fazer login"/>
+
+    <Button
+        android:id="@+id/btnm"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Mapa"/>
+
+    <Button
+        android:id="@+id/infor_1234"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="informações" />
 </LinearLayout>
