@@ -44,7 +44,6 @@ public class EmergenciaActivity extends Activity implements View.OnClickListener
         btnMenu.setOnClickListener(this);
         btnMapa.setOnClickListener(this);
         btnEmergencia.setOnClickListener(this);
-
     }
 
     @Override
