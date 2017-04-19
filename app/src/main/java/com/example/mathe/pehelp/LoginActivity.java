@@ -8,11 +8,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText nlogin;
     private EditText nSenha;
     private Button nBtn;
+    private Button btnCadastro;
     private TextView mCadastro;
 
     @Override
@@ -22,22 +23,25 @@ public class LoginActivity extends AppCompatActivity {
         nlogin = (EditText) findViewById(R.id.login);
         nSenha = (EditText) findViewById(R.id.senha);
         nBtn = (Button) findViewById(R.id.btn);
-        mCadastro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent2 = new Intent(LoginActivity.this,CadastroActivity.class);
-                startActivity(intent2);
-            }
-        });
-
-        nBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                logar();
-            }
-        });
-
+        btnCadastro = (Button)findViewById(R.id.btnCadastro);
+        nBtn.setOnClickListener(this);
+        btnCadastro.setOnClickListener(this);
     }
+
+    public void onClick(View v) {
+        switch(v.getId()) {
+            case R.id.login:
+                Intent intent = new Intent(this, MenuActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btnCadastro:
+                intent = new Intent(this, CadastroActivity.class);
+                startActivity(intent);
+                break;
+        }
+    }
+
+
 
     private void logar() {
         String[] users = {"julianajags", "rebecad", "anacarol"};

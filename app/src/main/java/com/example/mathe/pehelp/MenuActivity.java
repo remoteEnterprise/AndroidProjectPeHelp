@@ -12,7 +12,7 @@ import android.widget.Button;
 import com.example.mathe.informacoes.InformacoesActivity;
 
 public class MenuActivity extends Activity implements View.OnClickListener{
-    private Button btnFazerLogin;
+    private Button btnLogin;
     private Button btnMapa;
     private Button btnInfo_1234;
 
@@ -20,32 +20,24 @@ public class MenuActivity extends Activity implements View.OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
-        btnFazerLogin = (Button)findViewById(R.id.btnl);
+        btnLogin = (Button)findViewById(R.id.btnL);
         btnMapa = (Button)findViewById(R.id.btnm);
         btnInfo_1234 = (Button)findViewById(R.id.infor_1234);
-        btnFazerLogin.setOnClickListener(this);
+        btnLogin.setOnClickListener(this);
         btnMapa.setOnClickListener(this);
         btnInfo_1234.setOnClickListener(this);
     }
 
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btnl:
+            case R.id.btnL:
                 Intent intent = new Intent(this, LoginActivity.class);
                 startActivity(intent);
                 break;
 
             case R.id.btnm:
-                if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
-                        && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION)
-                        != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(this, new String[] {
-                            Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION
-                    }, 0);
-                } else {
-                    abrirMapa();
-                }
+                intent = new Intent(this, MapsActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.infor_1234:
