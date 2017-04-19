@@ -67,7 +67,20 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.mathe.informacoes.TerceirainformacaoActivity">
+            <intent-filter>
+                <action android:name="com.example.pehelp.TerceirainformacaoActivity" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.mathe.informacoes.QuartainformacaoActivity">
+            <intent-filter>
+                <action android:name="com.example.pehelp.QuartainformacaoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

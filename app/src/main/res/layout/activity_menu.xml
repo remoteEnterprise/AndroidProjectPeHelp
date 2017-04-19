@@ -4,17 +4,6 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
-    <!--<TextView-->
-    <!--android:text="Texto"-->
-    <!--android:layout_width="184dp"-->
-    <!--android:layout_gravity="center"-->
-    <!--android:layout_marginTop="100dp"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:id="@+id/texto"-->
-    <!--android:layout_weight="0.02"-->
-    <!--android:textSize="20dp" />-->
-
-
     <Button
         android:id="@+id/btnl"
         android:layout_marginTop="150dp"
