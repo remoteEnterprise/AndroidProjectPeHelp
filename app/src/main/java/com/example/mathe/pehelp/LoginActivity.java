@@ -6,12 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
 
     private EditText nlogin;
     private EditText nSenha;
     private Button nBtn;
+    private TextView mCadastro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,13 @@ public class LoginActivity extends AppCompatActivity {
         nlogin = (EditText) findViewById(R.id.login);
         nSenha = (EditText) findViewById(R.id.senha);
         nBtn = (Button) findViewById(R.id.btn);
+        mCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(LoginActivity.this,CadastroActivity.class);
+                startActivity(intent2);
+            }
+        });
 
         nBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    public void logar() {
+    private void logar() {
         String[] users = {"julianajags", "rebecad", "anacarol"};
         String password = "jujutop";
         String user = nlogin.getText().toString();
