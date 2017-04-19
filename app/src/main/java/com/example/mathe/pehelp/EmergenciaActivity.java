@@ -37,10 +37,28 @@ public class EmergenciaActivity extends Activity implements View.OnClickListener
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-        btnMenu = (Button)findViewById(R.id.botaoMenu);
-        btnEmergencia = (Button)findViewById(R.id.botaoEmergencia);
+        btnMenu = (Button) findViewById(R.id.botaoMenu);
+        btnEmergencia = (Button) findViewById(R.id.botaoEmergencia);
         btnMenu.setOnClickListener(this);
         btnEmergencia.setOnClickListener(this);
+    }
+
+    public void discar() {
+        int num = 190;
+        Uri uri = Uri.parse("tel:" + num);
+        Intent intent = new Intent(Intent.ACTION_CALL, uri);
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE)
+                != PackageManager.PERMISSION_GRANTED) {
+        }
+        startActivity(intent);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            discar();
+        }
     }
 
     @Override
@@ -52,20 +70,12 @@ public class EmergenciaActivity extends Activity implements View.OnClickListener
                 break;
 
             case R.id.botaoEmergencia:
-                int num = 190;
-                Uri uri = Uri.parse("tel:" + num);
-                intent = new Intent(Intent.ACTION_CALL, uri);
-                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    // TODO: Consider calling
-                    //    ActivityCompat#requestPermissions
-                    // here to request the missing permissions, and then overriding
-                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                    //                                          int[] grantResults)
-                    // to handle the case where the user grants the permission. See the documentation
-                    // for ActivityCompat#requestPermissions for more details.
-                    return;
+                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE)
+                        != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(this, new String[] { Manifest.permission.CALL_PHONE}, 0);
+                } else {
+                    discar();
                 }
-                startActivity(intent);
         }
     }
 

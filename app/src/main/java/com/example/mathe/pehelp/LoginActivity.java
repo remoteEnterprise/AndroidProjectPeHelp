@@ -45,8 +45,8 @@ public class LoginActivity extends AppCompatActivity {
                 nSenha.setError("Campo vazio!");
                 focus = nSenha;
                 focus.requestFocus();
-            }else if(user.equals(users[x]) && pass.equals(password)){
-                Intent intent = new Intent(this, MenuActivity.class);
+            } else if(user.equals(users[x]) && pass.equals(password)){
+                Intent intent = new Intent(this, MenuUsuarioActivity.class);
                 Bundle bundle = new Bundle();
                 bundle.putString("user", users[x]);
                 intent.putExtras(bundle);
