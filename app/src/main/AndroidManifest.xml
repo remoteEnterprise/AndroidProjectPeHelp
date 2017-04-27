@@ -55,6 +55,56 @@
             </intent-filter>
         </activity>
 
+<<<<<<< Updated upstream
+=======
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.mathe.informacoes.TerceirainformacaoActivity">
+            <intent-filter>
+                <action android:name="com.example.pehelp.TerceirainformacaoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.mathe.informacoes.QuartainformacaoActivity">
+            <intent-filter>
+                <action android:name="com.example.pehelp.QuartainformacaoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CadastroActivity">
+            <intent-filter>
+                <action android:name="com.example.pehelp.CadastroActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MenuUsuarioActivity">
+            <intent-filter>
+                <action android:name="com.example.pehelp.MenuUsuarioActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name=".ContatoDeConfianca">
+            <intent-filter>
+                <action android:name="com.example.pehelp.ContatoDeConfianca"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CadastroContatoActivity">
+            <intent-filter>
+                <action android:name="com.example.pehelp.CadastroContatoActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+>>>>>>> Stashed changes
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

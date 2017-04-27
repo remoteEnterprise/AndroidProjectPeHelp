@@ -20,6 +20,26 @@ public class LoginActivity extends AppCompatActivity {
         nlogin = (EditText) findViewById(R.id.login);
         nSenha = (EditText) findViewById(R.id.senha);
         nBtn = (Button) findViewById(R.id.btn);
+<<<<<<< Updated upstream:app/src/main/java/com/example/mathe/teladecadastro/LoginActivity.java
+=======
+        btnCadastro = (Button)findViewById(R.id.btnCadastro);
+        nBtn.setOnClickListener(this);
+        btnCadastro.setOnClickListener(this);
+    }
+
+    public void onClick(View v) {
+        switch(v.getId()) {
+            case R.id.btn:
+                Intent intent = new Intent(this, MenuUsuarioActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btnCadastro:
+                intent = new Intent(this, CadastroActivity.class);
+                startActivity(intent);
+                break;
+        }
+    }
+>>>>>>> Stashed changes:app/src/main/java/com/example/mathe/pehelp/LoginActivity.java
 
         nBtn.setOnClickListener(new View.OnClickListener() {
             @Override
