@@ -41,8 +41,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
     }
 
-
-
     private void logar() {
         String[] users = {"julianajags", "rebecad", "anacarol"};
         String password = "jujutop";
