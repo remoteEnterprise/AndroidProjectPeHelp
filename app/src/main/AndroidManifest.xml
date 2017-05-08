@@ -85,6 +85,7 @@
             </intent-filter>
         </activity>
 
+
         <activity android:name=".MenuUsuarioActivity">
             <intent-filter>
                 <action android:name="com.example.pehelp.MenuUsuarioActivity" />
