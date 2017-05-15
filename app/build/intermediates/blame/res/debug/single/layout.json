@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_menu_usuario.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_menu_usuario.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_menu.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_menu.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/amu_webview.xml",
+        "source": "/home/sergior/.android/build-cache/9a80e4c1db30fe0ba0261763ac58613e03e7202b/output/res/layout/amu_webview.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/mr_chooser_list_item.xml",
+        "source": "/home/sergior/.android/build-cache/1865bca5d0e8193d815a94d03f4cb72b7859f698/output/res/layout/mr_chooser_list_item.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_infoviolencia.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_infoviolencia.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/mr_controller_volume_item.xml",
+        "source": "/home/sergior/.android/build-cache/1865bca5d0e8193d815a94d03f4cb72b7859f698/output/res/layout/mr_controller_volume_item.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/cast_expanded_controller_activity.xml",
+        "source": "/home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/res/layout/cast_expanded_controller_activity.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
+        "source": "/home/sergior/.android/build-cache/7a6262e4c02d8ff6bed4e7a9b28f70a9581469df/output/res/layout/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/cast_intro_overlay.xml",
+        "source": "/home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/res/layout/cast_intro_overlay.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
+        "source": "/home/sergior/.android/build-cache/7a6262e4c02d8ff6bed4e7a9b28f70a9581469df/output/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
+        "source": "/home/sergior/.android/build-cache/7a6262e4c02d8ff6bed4e7a9b28f70a9581469df/output/res/layout/place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_cadastro_contato.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_cadastro_contato.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_maps.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_maps.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/cast_help_text.xml",
+        "source": "/home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/res/layout/cast_help_text.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
+        "source": "/home/sergior/.android/build-cache/7a6262e4c02d8ff6bed4e7a9b28f70a9581469df/output/res/layout/place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_informacoes.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_informacoes.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/mr_volume_control.xml",
+        "source": "/home/sergior/.android/build-cache/1865bca5d0e8193d815a94d03f4cb72b7859f698/output/res/layout/mr_volume_control.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/mr_controller_material_dialog_b.xml",
+        "source": "/home/sergior/.android/build-cache/1865bca5d0e8193d815a94d03f4cb72b7859f698/output/res/layout/mr_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_contato_de_confianca.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_contato_de_confianca.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/amu_text_bubble.xml",
+        "source": "/home/sergior/.android/build-cache/9a80e4c1db30fe0ba0261763ac58613e03e7202b/output/res/layout/amu_text_bubble.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_informedidas.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_informedidas.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/cast_mini_controller.xml",
+        "source": "/home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/res/layout/cast_mini_controller.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_emergencia.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_emergencia.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",
+        "source": "/home/sergior/.android/build-cache/1865bca5d0e8193d815a94d03f4cb72b7859f698/output/res/layout/mr_playback_control.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_infoprocedimento.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_infoprocedimento.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_layout.xml",
+        "source": "/home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/res/layout/cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_cadastro.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_cadastro.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "/home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/amu_info_window.xml",
+        "source": "/home/sergior/.android/build-cache/9a80e4c1db30fe0ba0261763ac58613e03e7202b/output/res/layout/amu_info_window.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/splash_screen.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/splash_screen.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/activity_infoassistencia.xml",
+        "source": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/res/layout/activity_infoassistencia.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/mr_chooser_dialog.xml",
+        "source": "/home/sergior/.android/build-cache/1865bca5d0e8193d815a94d03f4cb72b7859f698/output/res/layout/mr_chooser_dialog.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    }
+]

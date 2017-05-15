@@ -1,0 +1,567 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:2:1-132:12
+	package
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:5:5-69
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:5:22-66
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:9:5-130:19
+MERGED from [com.google.android.gms:play-services:10.2.1] /home/sergior/.android/build-cache/24b10a850ff4b799cb348f4392b26e66844d4270/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.2.1] /home/sergior/.android/build-cache/60421a0bca64c96afb90489c385aed3e955771ca/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] /home/sergior/.android/build-cache/5dbbb26ed44740f7717cdf8cda7ba7646dc3b591/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.1] /home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.2.1] /home/sergior/.android/build-cache/29583f42ca4d8ce7d5e20d5e0211d3201a1b444e/output/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /home/sergior/.android/build-cache/1865bca5d0e8193d815a94d03f4cb72b7859f698/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] /home/sergior/.android/build-cache/fcdecc6b6998de5a6cd61a931ab2aa8a12b3d77b/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:appcompat-v7:25.1.1] /home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /home/sergior/.android/build-cache/d889f7486e7eac51aaa8af54cc53cf92097e77c3/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /home/sergior/.android/build-cache/91bcc45faf285ce1dae0f6c9b09677c93f79ae86/output/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] /home/sergior/.android/build-cache/c54ed7fb39eedcf7e80a90440a6afd84f10c9095/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.1] /home/sergior/.android/build-cache/f928e370505be0d049875fb7dc7c2075f8d33ba2/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.1] /home/sergior/.android/build-cache/c5b65511d88d92a46e531af653d5d71bb44398df/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.2.1] /home/sergior/.android/build-cache/4cfa64ca73e50e0288988b4a9010407e76053e57/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.2.1] /home/sergior/.android/build-cache/b8c164c21bf2496dbe01d166e7cc9a954f3eb7a4/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] /home/sergior/.android/build-cache/4b850b413b58782b4c76967556a4305d3b9585dd/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.1] /home/sergior/.android/build-cache/0f09e44ec7b6f110d007e1367dcfcfca8fd4b7ca/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.1] /home/sergior/.android/build-cache/3976efe0489ecda0cca669b4ba2941cc75c84379/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.1] /home/sergior/.android/build-cache/14bc679e4435837c46511d6f65d49be8e11d4cbe/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] /home/sergior/.android/build-cache/a665d08392fbd1d19afd1b04dcccd181df81d6a3/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sergior/.android/build-cache/b6dcb657eaf2eb1e2eee323d26d6b0c38b58ba59/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] /home/sergior/.android/build-cache/8417b0bdfd38649cbc4ee200317c1e0b9eba0eba/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sergior/.android/build-cache/9dbf69c8037c74e1700e7109c029bdb80de09daa/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.1] /home/sergior/.android/build-cache/c9c79bcca0a8c6fb3231be7f583b4eb9460862dd/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.1] /home/sergior/.android/build-cache/b5a658fa5b4f28a50764a3d824432f20a1167fe9/output/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.1] /home/sergior/.android/build-cache/be1ee714d879482eaa52c4141e16bf0198113921/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.1] /home/sergior/.android/build-cache/7a6262e4c02d8ff6bed4e7a9b28f70a9581469df/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] /home/sergior/.android/build-cache/ecf73c16baf53e8666536e38fa61592765b7a4fc/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.1] /home/sergior/.android/build-cache/185cdd48abef14d81e49c8187b447dd24510bcb3/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/sergior/.android/build-cache/e40f191ea3bffbf9bb0b6be33ad244211e060a9a/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] /home/sergior/.android/build-cache/ed8a3f31d0ddae7fe9d7c4a57b94864bb9bdcc45/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.1] /home/sergior/.android/build-cache/2918949f03519299fc7670d51fad61d0c70f174e/output/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /home/sergior/.android/build-cache/cf49cceeb262db6c374a7f77a90b8936edaa7a69/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.2.1] /home/sergior/.android/build-cache/0a3681327d170ef2e900ae9f31e02429a2e9fac5/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.1] /home/sergior/.android/build-cache/d25d82c921740ccf3fa9fe8e4f4e342a322ab6d0/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] /home/sergior/.android/build-cache/1b986ecb3b597eeebddd401d7e4dbd122967ed54/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] /home/sergior/.android/build-cache/9a80e4c1db30fe0ba0261763ac58613e03e7202b/output/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sergior/.android/build-cache/66562e9faf438a1769d949a87d2fe8db9c9448f3/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /home/sergior/.android/build-cache/3da9d68989562cfa298e18d416fdd066f73e6b75/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /home/sergior/.android/build-cache/c27a532215599d658f2be103d0d7678f259d4bfc/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /home/sergior/.android/build-cache/2fc8f161ef2a579ae31f3a8d4bea6f0fbcd5fa2d/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.1] /home/sergior/.android/build-cache/9b8bc2be137c1b33a6de73506afda78d7748e2b6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /home/sergior/.android/build-cache/78b06a856e3c559d5ee5841d73fb7f8d5cb349e9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /home/sergior/.android/build-cache/0aa89958f7b9964d623df3521cfe78c8208c424d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /home/sergior/.android/build-cache/6ab498c41bfbfd3efb0894868ef3e86b67312315/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /home/sergior/.android/build-cache/26f1508838f308fb6183c0d68aa295c001c60b05/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /home/sergior/.android/build-cache/06bf02b85e43ac94d562b1077f2e0766851500ca/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sergior/.android/build-cache/29526ea0cb3281e2444835d1163f50983851047d/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:12:9-31
+	android:supportsRtl
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:13:9-35
+	android:allowBackup
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:11:9-43
+	android:theme
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:14:9-40
+activity#com.example.mathe.pehelp.SplashActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:15:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.mathe.pehelp.EmergenciaActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:22:19-53
+intent-filter#android.intent.category.DEFAULT+com.example.mathe.teladecadastro.BotaoEmergenciaActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:23:13-27:29
+action#com.example.mathe.teladecadastro.BotaoEmergenciaActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:24:17-99
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:24:25-96
+category#android.intent.category.DEFAULT
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:26:27-73
+activity#com.example.mathe.pehelp.LoginActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:30:9-36:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:30:19-48
+intent-filter#android.intent.category.DEFAULT+com.example.pehelp.LoginActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:31:13-35:29
+action#com.example.pehelp.LoginActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:32:17-75
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:32:25-72
+activity#com.example.mathe.pehelp.MenuActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:37:9-43:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:37:19-47
+intent-filter#android.intent.category.DEFAULT+com.example.pehelp.MenuActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:38:13-42:29
+action#com.example.pehelp.MenuActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:39:17-74
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:39:25-71
+activity#com.example.mathe.informacoes.InformacoesActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:44:9-50:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:44:19-83
+intent-filter#android.intent.category.DEFAULT+com.example.pehelp.InformacoesActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:45:13-49:29
+action#com.example.pehelp.InformacoesActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:46:25-78
+activity#com.example.mathe.informacoes.PrimeiraInformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:51:9-57:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:51:19-90
+intent-filter#android.intent.category.DEFAULT+com.example.pehelp.PrimeiraInformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:52:13-56:29
+action#com.example.pehelp.PrimeiraInformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:53:17-88
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:53:25-85
+activity#com.example.mathe.informacoes.SegundaInformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:58:9-64:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:58:19-89
+intent-filter#android.intent.category.DEFAULT+com.example.pehelp.SegundaInformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:59:13-63:29
+action#com.example.pehelp.SegundaInformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:60:17-87
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:60:25-84
+activity#com.example.mathe.informacoes.TerceirainformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:65:9-71:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:65:19-90
+intent-filter#android.intent.category.DEFAULT+com.example.pehelp.TerceirainformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:66:13-70:29
+action#com.example.pehelp.TerceirainformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:67:17-88
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:67:25-85
+activity#com.example.mathe.informacoes.QuartainformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:72:9-78:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:72:19-88
+intent-filter#android.intent.category.DEFAULT+com.example.pehelp.QuartainformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:73:13-77:29
+action#com.example.pehelp.QuartainformacaoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:74:17-86
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:74:25-83
+activity#com.example.mathe.pehelp.CadastroActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:80:9-86:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:80:19-51
+intent-filter#android.intent.category.DEFAULT+com.example.pehelp.CadastroActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:81:13-85:29
+action#com.example.pehelp.CadastroActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:82:17-78
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:82:25-75
+activity#com.example.mathe.pehelp.MenuUsuarioActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:88:9-94:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:88:19-78
+intent-filter#android.intent.category.DEFAULT+com.example.pehelp.MenuUsuarioActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:89:13-93:29
+action#com.example.pehelp.MenuUsuarioActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:90:17-81
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:90:25-78
+activity#com.example.mathe.pehelp.CadastroContatoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:96:9-102:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:96:19-82
+intent-filter#android.intent.category.DEFAULT+com.example.mathe.pehelp.CadastroContatoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:97:13-101:29
+action#com.example.mathe.pehelp.CadastroContatoActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:98:17-91
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:98:25-88
+activity#com.example.mathe.pehelp.ContatoDeConfianca
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:104:9-109:20
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:104:19-53
+intent-filter#android.intent.category.DEFAULT+com.example.mathe.pehelp.ContatoDeConfianca
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:105:13-108:29
+action#com.example.mathe.pehelp.ContatoDeConfianca
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:106:17-86
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:106:25-83
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:119:9-121:55
+	android:value
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:121:13-52
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:120:13-58
+activity#com.example.mathe.pehelp.MapsActivity
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:123:9-125:59
+	android:label
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:125:13-56
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:124:13-41
+meta-data#com.google.android.gms.version
+ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:127:9-129:69
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] /home/sergior/.android/build-cache/9a80e4c1db30fe0ba0261763ac58613e03e7202b/output/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /home/sergior/.android/build-cache/2fc8f161ef2a579ae31f3a8d4bea6f0fbcd5fa2d/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:129:13-66
+	android:name
+		ADDED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml:128:13-58
+uses-sdk
+INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services:10.2.1] /home/sergior/.android/build-cache/24b10a850ff4b799cb348f4392b26e66844d4270/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.1] /home/sergior/.android/build-cache/a781d38f4cac8856d8f95c13c89beb163afcf8fa/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.1] /home/sergior/.android/build-cache/60421a0bca64c96afb90489c385aed3e955771ca/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] /home/sergior/.android/build-cache/5dbbb26ed44740f7717cdf8cda7ba7646dc3b591/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] /home/sergior/.android/build-cache/d56d05951a43527ee4f7994516ff5b64750f3ef4/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.1] /home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.1] /home/sergior/.android/build-cache/29583f42ca4d8ce7d5e20d5e0211d3201a1b444e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /home/sergior/.android/build-cache/1865bca5d0e8193d815a94d03f4cb72b7859f698/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] /home/sergior/.android/build-cache/fcdecc6b6998de5a6cd61a931ab2aa8a12b3d77b/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.1.1] /home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /home/sergior/.android/build-cache/d889f7486e7eac51aaa8af54cc53cf92097e77c3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /home/sergior/.android/build-cache/91bcc45faf285ce1dae0f6c9b09677c93f79ae86/output/AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] /home/sergior/.android/build-cache/c54ed7fb39eedcf7e80a90440a6afd84f10c9095/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.1] /home/sergior/.android/build-cache/f928e370505be0d049875fb7dc7c2075f8d33ba2/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.1] /home/sergior/.android/build-cache/c5b65511d88d92a46e531af653d5d71bb44398df/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.1] /home/sergior/.android/build-cache/4cfa64ca73e50e0288988b4a9010407e76053e57/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.1] /home/sergior/.android/build-cache/b8c164c21bf2496dbe01d166e7cc9a954f3eb7a4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.1] /home/sergior/.android/build-cache/ec8166626d8cc4bc17b5e81eed7654b18dcde4a7/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.1] /home/sergior/.android/build-cache/5da2b8509115157fd79551e53c2ed7e526216720/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] /home/sergior/.android/build-cache/4b850b413b58782b4c76967556a4305d3b9585dd/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.1] /home/sergior/.android/build-cache/c0c65bbc048d5617be94ed4fde695d5b1480ddd3/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.1] /home/sergior/.android/build-cache/0c626b6f168950f985ab14a640b4240d6707a799/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.1] /home/sergior/.android/build-cache/0f09e44ec7b6f110d007e1367dcfcfca8fd4b7ca/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.1] /home/sergior/.android/build-cache/3976efe0489ecda0cca669b4ba2941cc75c84379/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.1] /home/sergior/.android/build-cache/14bc679e4435837c46511d6f65d49be8e11d4cbe/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] /home/sergior/.android/build-cache/a665d08392fbd1d19afd1b04dcccd181df81d6a3/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sergior/.android/build-cache/b6dcb657eaf2eb1e2eee323d26d6b0c38b58ba59/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] /home/sergior/.android/build-cache/8417b0bdfd38649cbc4ee200317c1e0b9eba0eba/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sergior/.android/build-cache/9dbf69c8037c74e1700e7109c029bdb80de09daa/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.1] /home/sergior/.android/build-cache/f50a458cb03ebd839afdd50759735142655b82b1/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.1] /home/sergior/.android/build-cache/c9c79bcca0a8c6fb3231be7f583b4eb9460862dd/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.1] /home/sergior/.android/build-cache/b5a658fa5b4f28a50764a3d824432f20a1167fe9/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.1] /home/sergior/.android/build-cache/be1ee714d879482eaa52c4141e16bf0198113921/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.1] /home/sergior/.android/build-cache/7a6262e4c02d8ff6bed4e7a9b28f70a9581469df/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] /home/sergior/.android/build-cache/ecf73c16baf53e8666536e38fa61592765b7a4fc/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.1] /home/sergior/.android/build-cache/185cdd48abef14d81e49c8187b447dd24510bcb3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.1] /home/sergior/.android/build-cache/04fc6ca9cd90bc6fd3390907b34dca56565a6a63/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/sergior/.android/build-cache/e40f191ea3bffbf9bb0b6be33ad244211e060a9a/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] /home/sergior/.android/build-cache/ed8a3f31d0ddae7fe9d7c4a57b94864bb9bdcc45/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.1] /home/sergior/.android/build-cache/2918949f03519299fc7670d51fad61d0c70f174e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /home/sergior/.android/build-cache/cf49cceeb262db6c374a7f77a90b8936edaa7a69/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.1] /home/sergior/.android/build-cache/0a3681327d170ef2e900ae9f31e02429a2e9fac5/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.1] /home/sergior/.android/build-cache/dc5230cd90edd731c34ed9dca468dbc3b4c2466d/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.1] /home/sergior/.android/build-cache/d25d82c921740ccf3fa9fe8e4f4e342a322ab6d0/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] /home/sergior/.android/build-cache/1b986ecb3b597eeebddd401d7e4dbd122967ed54/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] /home/sergior/.android/build-cache/9a80e4c1db30fe0ba0261763ac58613e03e7202b/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sergior/.android/build-cache/66562e9faf438a1769d949a87d2fe8db9c9448f3/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /home/sergior/.android/build-cache/3da9d68989562cfa298e18d416fdd066f73e6b75/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /home/sergior/.android/build-cache/c27a532215599d658f2be103d0d7678f259d4bfc/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /home/sergior/.android/build-cache/2fc8f161ef2a579ae31f3a8d4bea6f0fbcd5fa2d/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.1.1] /home/sergior/.android/build-cache/9b8bc2be137c1b33a6de73506afda78d7748e2b6/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /home/sergior/.android/build-cache/78b06a856e3c559d5ee5841d73fb7f8d5cb349e9/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /home/sergior/.android/build-cache/0aa89958f7b9964d623df3521cfe78c8208c424d/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] /home/sergior/.android/build-cache/6ab498c41bfbfd3efb0894868ef3e86b67312315/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] /home/sergior/.android/build-cache/26f1508838f308fb6183c0d68aa295c001c60b05/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] /home/sergior/.android/build-cache/06bf02b85e43ac94d562b1077f2e0766851500ca/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sergior/.android/build-cache/29526ea0cb3281e2444835d1163f50983851047d/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.1] /home/sergior/.android/build-cache/4c4f1eed41d7844174bd61d03775169d73f2ab41/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.1] /home/sergior/.android/build-cache/60421a0bca64c96afb90489c385aed3e955771ca/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] /home/sergior/.android/build-cache/5dbbb26ed44740f7717cdf8cda7ba7646dc3b591/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.1] /home/sergior/.android/build-cache/4cfa64ca73e50e0288988b4a9010407e76053e57/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sergior/.android/build-cache/b6dcb657eaf2eb1e2eee323d26d6b0c38b58ba59/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sergior/.android/build-cache/9dbf69c8037c74e1700e7109c029bdb80de09daa/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/sergior/.android/build-cache/e40f191ea3bffbf9bb0b6be33ad244211e060a9a/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /home/sergior/.android/build-cache/cf49cceeb262db6c374a7f77a90b8936edaa7a69/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sergior/.android/build-cache/66562e9faf438a1769d949a87d2fe8db9c9448f3/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:19:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.1] /home/sergior/.android/build-cache/60421a0bca64c96afb90489c385aed3e955771ca/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.1] /home/sergior/.android/build-cache/b5a658fa5b4f28a50764a3d824432f20a1167fe9/output/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/sergior/.android/build-cache/e40f191ea3bffbf9bb0b6be33ad244211e060a9a/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /home/sergior/.android/build-cache/cf49cceeb262db6c374a7f77a90b8936edaa7a69/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sergior/.android/build-cache/66562e9faf438a1769d949a87d2fe8db9c9448f3/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] /home/sergior/.android/build-cache/e7cc2dc904a0a4a40870fdf810e15a10d1712c9f/output/AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.2.1] /home/sergior/.android/build-cache/60421a0bca64c96afb90489c385aed3e955771ca/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/sergior/.android/build-cache/e40f191ea3bffbf9bb0b6be33ad244211e060a9a/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /home/sergior/.android/build-cache/cf49cceeb262db6c374a7f77a90b8936edaa7a69/output/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.1] /home/sergior/.android/build-cache/60421a0bca64c96afb90489c385aed3e955771ca/output/AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /home/sergior/.android/build-cache/5dbbb26ed44740f7717cdf8cda7ba7646dc3b591/output/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /home/sergior/.android/build-cache/5dbbb26ed44740f7717cdf8cda7ba7646dc3b591/output/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /home/sergior/.android/build-cache/5dbbb26ed44740f7717cdf8cda7ba7646dc3b591/output/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /home/sergior/.android/build-cache/5dbbb26ed44740f7717cdf8cda7ba7646dc3b591/output/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /home/sergior/.android/build-cache/5dbbb26ed44740f7717cdf8cda7ba7646dc3b591/output/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /home/sergior/.android/build-cache/5dbbb26ed44740f7717cdf8cda7ba7646dc3b591/output/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] /home/sergior/.android/build-cache/5dbbb26ed44740f7717cdf8cda7ba7646dc3b591/output/AndroidManifest.xml:22:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] /home/sergior/.android/build-cache/a69e1015cb64cc4248596066f3928403c89785fa/output/AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] /home/sergior/.android/build-cache/068b5afb673c2acee3079d0109d5463628357b73/output/AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] /home/sergior/.android/build-cache/4b850b413b58782b4c76967556a4305d3b9585dd/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] /home/sergior/.android/build-cache/4b850b413b58782b4c76967556a4305d3b9585dd/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] /home/sergior/.android/build-cache/4b850b413b58782b4c76967556a4305d3b9585dd/output/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] /home/sergior/.android/build-cache/4b850b413b58782b4c76967556a4305d3b9585dd/output/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] /home/sergior/.android/build-cache/4b850b413b58782b4c76967556a4305d3b9585dd/output/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] /home/sergior/.android/build-cache/4b850b413b58782b4c76967556a4305d3b9585dd/output/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] /home/sergior/.android/build-cache/4b850b413b58782b4c76967556a4305d3b9585dd/output/AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sergior/.android/build-cache/b6dcb657eaf2eb1e2eee323d26d6b0c38b58ba59/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sergior/.android/build-cache/9dbf69c8037c74e1700e7109c029bdb80de09daa/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sergior/.android/build-cache/b6dcb657eaf2eb1e2eee323d26d6b0c38b58ba59/output/AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] /home/sergior/.android/build-cache/ccf72851184df02fe0faf57e6ad8a5f63700ba4d/output/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/sergior/.android/build-cache/e40f191ea3bffbf9bb0b6be33ad244211e060a9a/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /home/sergior/.android/build-cache/e40f191ea3bffbf9bb0b6be33ad244211e060a9a/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /home/sergior/.android/build-cache/7f6c3775e39fb9e1cfc9ea16862caabf471e9619/output/AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /home/sergior/.android/build-cache/230acc1786409a42aaf46bbc9ffd614e280bef83/output/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.1] /home/sergior/.android/build-cache/ed8a3f31d0ddae7fe9d7c4a57b94864bb9bdcc45/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /home/sergior/.android/build-cache/ed8a3f31d0ddae7fe9d7c4a57b94864bb9bdcc45/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /home/sergior/.android/build-cache/ed8a3f31d0ddae7fe9d7c4a57b94864bb9bdcc45/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /home/sergior/.android/build-cache/ed8a3f31d0ddae7fe9d7c4a57b94864bb9bdcc45/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /home/sergior/.android/build-cache/ed8a3f31d0ddae7fe9d7c4a57b94864bb9bdcc45/output/AndroidManifest.xml:6:79-143
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.1] /home/sergior/.android/build-cache/66562e9faf438a1769d949a87d2fe8db9c9448f3/output/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.1] /home/sergior/.android/build-cache/66562e9faf438a1769d949a87d2fe8db9c9448f3/output/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.1] /home/sergior/.android/build-cache/66562e9faf438a1769d949a87d2fe8db9c9448f3/output/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] /home/sergior/.android/build-cache/3da9d68989562cfa298e18d416fdd066f73e6b75/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /home/sergior/.android/build-cache/3da9d68989562cfa298e18d416fdd066f73e6b75/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /home/sergior/.android/build-cache/3da9d68989562cfa298e18d416fdd066f73e6b75/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /home/sergior/.android/build-cache/3da9d68989562cfa298e18d416fdd066f73e6b75/output/AndroidManifest.xml:19:19-85

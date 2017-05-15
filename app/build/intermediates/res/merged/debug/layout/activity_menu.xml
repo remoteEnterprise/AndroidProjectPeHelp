@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <!--<TextView-->
+        <!--android:text="Texto"-->
+        <!--android:layout_width="184dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/texto"-->
+        <!--android:layout_weight="0.02"-->
+        <!--android:textSize="20dp" />-->
+
+
+    <Button
+        android:id="@+id/btnl"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Fazer login"
+        android:background="@android:color/holo_blue_bright"/>
+
+    <Button
+        android:id="@+id/btnm"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mapa"
+        android:background="@android:color/holo_blue_bright"/>
+
+    <Button
+        android:id="@+id/btninf"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="220dp"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Inf" />
+</LinearLayout>

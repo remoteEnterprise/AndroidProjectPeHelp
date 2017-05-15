@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/home/sergior/.android/build-cache/1865bca5d0e8193d815a94d03f4cb72b7859f698/output/res/interpolator/mr_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/home/sergior/AndroidStudioProjects/AndroidProjectPeHelp/app/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/home/sergior/.android/build-cache/1865bca5d0e8193d815a94d03f4cb72b7859f698/output/res/interpolator/mr_linear_out_slow_in.xml"
+    }
+]

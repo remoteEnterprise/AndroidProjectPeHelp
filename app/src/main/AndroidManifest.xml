@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mathe.teladecadastro">
+    package="com.example.mathe.pehelp">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
-
-    <!--
-         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-         Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the 'MyLocation' functionality. 
-    -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -31,32 +26,39 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <!--
- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
-        -->
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
 
         <activity android:name=".LoginActivity">
             <intent-filter>
-                <action android:name="com.example.mathe.teladecadastro.LoginActivity" />
+                <action android:name="com.example.pehelp.LoginActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".MenuActivity">
             <intent-filter>
-                <action android:name="com.example.mathe.teladecadastro.MenuActivity" />
+                <action android:name="com.example.pehelp.MenuActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.mathe.informacoes.InformacoesActivity">
+            <intent-filter>
+                <action android:name="com.example.pehelp.InformacoesActivity" />
 
-<<<<<<< Updated upstream
-=======
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.mathe.informacoes.PrimeiraInformacaoActivity">
+            <intent-filter>
+                <action android:name="com.example.pehelp.PrimeiraInformacaoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.mathe.informacoes.SegundaInformacaoActivity">
+            <intent-filter>
+                <action android:name="com.example.pehelp.SegundaInformacaoActivity" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -83,7 +85,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MenuUsuarioActivity">
+        <activity android:name="com.example.mathe.pehelp.MenuUsuarioActivity">
             <intent-filter>
                 <action android:name="com.example.pehelp.MenuUsuarioActivity" />
 
@@ -91,20 +93,21 @@
             </intent-filter>
         </activity>
 
-		<activity android:name=".ContatoDeConfianca">
+        <activity android:name="com.example.mathe.pehelp.CadastroContatoActivity">
             <intent-filter>
-                <action android:name="com.example.pehelp.ContatoDeConfianca"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.example.mathe.pehelp.CadastroContatoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".CadastroContatoActivity">
+        <activity android:name=".ContatoDeConfianca">
             <intent-filter>
-                <action android:name="com.example.pehelp.CadastroContatoActivity"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.example.mathe.pehelp.ContatoDeConfianca" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
->>>>>>> Stashed changes
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -119,7 +122,11 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>
