@@ -5,23 +5,19 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center">
 
-    <TextView
-        android:layout_width="170dp"
-        android:layout_height="match_parent"
-        android:text="CADASTRAR DEPOIMENTO"
-        android:layout_gravity="center"
-        android:typeface="sans"/>
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="110dp"
-        android:src="@drawable/header_dialog" />
+        android:src="@drawable/pehelp_front_cadastro"
+        android:background="#1893D2"/>
 
     <EditText
         android:id="@+id/editText2"
+        android:layout_marginTop="20dp"
         android:layout_width="300dp"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:layout_gravity="center"
         android:hint="Depoimento"/>
 
@@ -29,7 +25,18 @@
         android:layout_width="300dp"
         android:layout_height="match_parent"
         android:layout_gravity="center"
+        android:gravity="center"
+        android:singleLine="true"
         android:hint="Tipo de Violência"/>
+
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Data do Ocorrido"
+        android:gravity="center"/>
 
     <Button
         android:layout_width="250dp"
@@ -37,5 +44,8 @@
         android:id="@+id/btn"
         android:text="Cadastrar"
         android:layout_gravity="center"/>
+
+
+
 
 </LinearLayout>
