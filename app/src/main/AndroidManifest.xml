@@ -26,7 +26,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="com.example.pehelp.LoginActivity" />
@@ -76,7 +75,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".CadastroActivity">
             <intent-filter>
                 <action android:name="com.example.pehelp.CadastroActivity" />
@@ -84,8 +82,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".MenuUsuarioActivity">
             <intent-filter>
                 <action android:name="com.example.pehelp.MenuUsuarioActivity" />
@@ -112,6 +108,7 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
     </application>
 
 </manifest>

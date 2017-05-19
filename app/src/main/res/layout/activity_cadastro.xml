@@ -11,56 +11,41 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/nome"
+            android:id="@+id/cadastrar_nomeId"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:gravity="center"
-            android:hint="Nome" />
+            android:hint="Nome"
+            android:password="false" />
 
         <EditText
-            android:id="@+id/sobrenome"
+            android:id="@+id/cadastrar_emailId"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:hint="Sobrenome" />
+            android:hint="Email" />
 
         <EditText
-            android:id="@+id/user"
+            android:id="@+id/senhaId"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:hint="Usuario" />
-
-        <EditText
-            android:id="@+id/senha"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:hint="Senha" />
-
-        <EditText
-            android:id="@+id/senhaC"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:hint="Confirmar Senha" />
+            android:hint="Senha"
+            android:password="true" />
 
         <Button
+            android:id="@+id/botaoCadastrarId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/cadastro"
-            android:layout_marginTop="15dp"
             android:layout_gravity="center"
-            android:text="Cadastrar"/>
+            android:layout_marginTop="15dp"
+            android:text="Cadastrar" />
 
     </LinearLayout>
     </LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "306549613519",
+    "firebase_url": "https://pehelp-6cc36.firebaseio.com",
+    "project_id": "pehelp-6cc36",
+    "storage_bucket": "pehelp-6cc36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306549613519:android:dcc9b492612181ce",
+        "android_client_info": {
+          "package_name": "com.example.mathe.pehelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306549613519-e2bb9v4hpcg9i29mve92gj55fatd5v44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mathe.pehelp",
+            "certificate_hash": "08bb50ffc6b50efcd4b830b725852cbe52e0117e"
+          }
+        },
+        {
+          "client_id": "306549613519-ob51j18i44ijdipta26l7kahbpko65c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAKum2w3a1-fhLKarCZ9Idpnb6JJGZ8A8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306549613519-ob51j18i44ijdipta26l7kahbpko65c2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

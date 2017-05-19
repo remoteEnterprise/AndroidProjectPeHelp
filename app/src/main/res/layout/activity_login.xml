@@ -16,14 +16,13 @@
         android:gravity="center"/>
 
     <EditText
+        android:id="@+id/login"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Usuário"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:id="@+id/login"
-        />
+        android:hint="Email" />
 
     <EditText
         android:layout_width="300dp"
